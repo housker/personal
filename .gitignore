@@ -1,0 +1,19 @@
+#
+/in-progress
+
+# Dependencies
+/node_modules
+.yarn/*
+
+# Compiled TypeScript
+/dist
+/public
+
+# Jest coverage
+/coverage
+
+# Visual Studio Code settings
+.vscode/
+
+# macOS
+.DS_Store
