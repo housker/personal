@@ -22,7 +22,7 @@ export default function Nav() {
                 <NavLink
                     to="/about"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "active" : ""
+                        isPending ? "pending" : isActive ? "overline" : ""
                     }
                 >
                     About
@@ -30,7 +30,7 @@ export default function Nav() {
                 <NavLink
                     to="/projects"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "active" : ""
+                        isPending ? "pending" : isActive ? "overline" : ""
                     }
                 >
                     Projects
@@ -39,7 +39,7 @@ export default function Nav() {
                 <NavLink
                     to="/docs"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "active" : ""
+                        isPending ? "pending" : isActive ? "overline" : ""
                     }
                 >
                     Docs

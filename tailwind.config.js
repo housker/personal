@@ -24,6 +24,7 @@ module.exports = {
         'profile-pattern': "url('/client/assets/profile.png')",
         'wave-pattern': "url('/client/assets/wave.jpg')",
         'stars-pattern': "url('/client/assets/stars.jpg')",
+        'shore-pattern': "url('/client/assets/shore.jpg')",
       },
       colors: {
         leaf: '#1C210C',

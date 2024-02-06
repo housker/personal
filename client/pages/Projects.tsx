@@ -32,13 +32,13 @@ export default function Projects() {
     const [activeDescription, setActiveDescription]: [any, any] = useState('Click or hover over a list item to view description');
 
     return (
-        <main className="bg-ridge-pattern bg-left flex-1 flex-end flex text-white font-thin text-4xl md:text-5xl decoration-1">
+        <div className="h-full bg-turtle-pattern bg-bottom flex text-white font-thin text-4xl md:text-5xl no-underline">
             <ul className="p-8 my-4 content-evenly grid grid-flow-row w-fit">
                 {items.map((val, i) => (
-                    <li key={val.key} onClick={() => setActiveDescription(items[i].description)} onMouseOver={() => setActiveDescription(items[i].description)} className={activeDescription === val.description ? 'underline underline-offset-8' : undefined}>{val.label}</li>
+                    <li key={val.key} onClick={() => setActiveDescription(items[i].description)} onMouseOver={() => setActiveDescription(items[i].description)} className={activeDescription === val.description ? 'underline underline-offset-8' : ''}>{val.label}</li>
                 ))}
             </ul>
             <div className="p-8 font-abel text-xl no-underline place-self-center overflow-scroll line-clamp-6">{[activeDescription]}</div>
-        </main>
+        </div>
     )
 }

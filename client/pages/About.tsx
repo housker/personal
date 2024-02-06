@@ -5,7 +5,7 @@ const BIOGRAPHY = "Struggling with student debt, and living in an apartment with
 export default function About() {
     return (
         <div className="bg-stars-pattern bg-bottom text-white font-thin text-2xl overflow-hidden flex flex-col sm:flex-row sm:height-full">
-            <img src={require('../assets/profile.png')} className="max-h-full w-auto h-auto" alt="Profile" />
+            <img src={require('../assets/profile.png')} className="max-h-full w-auto h-auto" alt="Profile" loading="lazy" />
             <div className="flex-1 max-h-full h-auto overflow-y-auto place-self-center p-8">
                 <p>{BIOGRAPHY}</p>
             </div>
