@@ -1,5 +1,7 @@
 # Personal Website
 
+## Hosted
+Live on firebase: https://adelle-housker.web.app/projects
 
 ## Getting Started
 - [Download the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
