@@ -9,12 +9,12 @@ export default function Landing() {
             <li>
                 <a href="/projects">Projects</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="/docs">Docs</a>
             </li>
             <li>
                 <a href="/blog">Blog</a>
-            </li>
+            </li> */}
         </ul>
     )
 }

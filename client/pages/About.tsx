@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BIOGRAPHY = "Struggling with student debt, and living in an apartment with unreliable internet, I ended up learning to code on MIT's wifi after winning a scholarship to Hack Reactor and being granted a Golden Ticket to the Recurse Center, which ultimately helped me land jobs at prestigious tech companies. Having been raised on a farm, I was used to the kind of hard work that came from taming harsh physical forces, and was surprised to encounter a kind of self-inflicted hardship stemming from the man-made systems we ourselves had created. As I study Artificial Intelligence through Columbia University, that is forefront in my mind."
+const BIOGRAPHY = "Struggling with student debt, and living in an apartment with unreliable internet, I ended up learning to code on MIT's wifi after winning a scholarship to Hack Reactor and being granted a Golden Ticket to the Recurse Center, which ultimately helped me land jobs at prestigious tech companies. Having been raised on a farm, I was used to the kind of hard work that came from taming harsh physical forces, and was surprised to encounter a kind of self-inflicted hardship stemming from the man-made systems we ourselves had created. As I build upon my web development experience with courses in Artificial Intelligence through Columbia University, that is forefront in my mind."
 
 export default function About() {
     return (
